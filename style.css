@@ -1,0 +1,272 @@
+/* Reset dasar untuk margin dan padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: #fff;
+    padding: 15px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.btn-main {
+    display: inline-block;
+    background-color: #6b0005;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-main:hover {
+    background-color: #420000;
+}
+
+/* Genre Section */
+.genres {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.genre-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.genre-button {
+    display: inline-block;
+    background-color: #940000;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.genre-button:hover {
+    background-color: #220000;
+    transform: scale(1.05);
+}
+
+.genre-button:active {
+    background-color: #c90000;
+}
+
+/* Search Section */
+.search {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.search-input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.btn-search {
+    padding: 10px 20px;
+    border: none;
+    background-color: #860000;
+    color: #000000;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn-search:hover {
+    background-color: #ff0000;
+}
+
+/* Watch Section */
+.watch {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.video-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+.video-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 320px;
+    margin: 20px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.video-card:hover {
+    transform: scale(1.02);
+}
+
+.video-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.thumbnail {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play-button img {
+    width: 0%;
+    height: auto;
+}
+
+.details {
+    padding: 10px;
+}
+
+.details h3 {
+    margin: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.details .description {
+    font-size: 0.9em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.details .info {
+    font-size: 0.8em;
+    color: #aaa;
+}
+
+.details .views {
+    color: #666;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+header {
+    justify-content: center;
+    text-align: center;
+}
+button {
+    padding: 5px 15px;
+    border: none;
+    background-color: #860000;
+    color: #000000;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    box-shadow: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: background-color 0.3s, transform 0.2s;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+button:hover {
+    background-color: #220000;
+    transform: scale(1.05);
+}
